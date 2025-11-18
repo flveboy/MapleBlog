@@ -84,7 +84,7 @@ const siteStats = await getSiteStats();
       <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
         <!-- 左侧：博主信息 (1/4) -->
         <div class="xl:col-span-1">
-          <LiquidGlass heavy textClass="h-full" enableGlassEffect={false}>
+          <LiquidGlass heavy textClass="h-full">
             <div class="rounded-[35px] intersect:animate-fadeUp h-full">
               <AuthorProfile />
             </div>
@@ -98,7 +98,6 @@ const siteStats = await getSiteStats();
             containerClass="h-full"
             wrapperClass="dock h-full"
             textClass="p-3"
-            enableGlassEffect={false}
           >
             <div class="rounded-lg intersect:animate-fadeUp h-full">
               <ArticleCalendar />
@@ -132,7 +131,6 @@ const siteStats = await getSiteStats();
       <LiquidGlass
         heavy
         containerClass="lg:col-span-3"
-        enableGlassEffect={false}
       >
         <!-- Featured Articles Section -->
         <section class="rounded-lg">
@@ -173,7 +171,7 @@ const siteStats = await getSiteStats();
       <!-- Right Column: Sidebar -->
       <div class="flex flex-col lg:col-span-1 space-y-6">
         <!-- Recommended Articles -->
-        <LiquidGlass heavy enableGlassEffect={false}>
+        <LiquidGlass heavy >
           <section class="rounded-lg pt-3">
             <div class="flex items-center justify-between mb-4 px-3">
               <h3 class="text-xl font-bold text-txt-p dark:text-darkmode-txt-p">
@@ -204,7 +202,7 @@ const siteStats = await getSiteStats();
         <!-- </section> -->
 
         <!-- Site Messages -->
-        <LiquidGlass heavy enableGlassEffect={false}>
+        <LiquidGlass heavy >
           <HomeNotesPreview entries={latestNotes} limit={6} />
         </LiquidGlass>
 

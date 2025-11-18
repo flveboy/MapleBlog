@@ -63,6 +63,8 @@
     <p>在不支持 `backdrop-filter` 或需要更高性能时使用</p>
   </LiquidGlassLess>
   ```
+  注：已增加全局控制配置项：在 `src/lib/config.ts` 中设置 `ENABLE_GLASS_EFFECT`，控制所有组件的玻璃效果的默认状态。如果某个组件单独设置了`enableGlassEffect`， 则会覆盖默认状态。
+
 
 - 自定义叠加层与圆角：
   ```astro

@@ -1,4 +1,5 @@
 ---
+import { UI_CONFIG } from "@lib/config";
 interface Props {
   containerType?: "div" | "section" | "nav" | "header" | "footer";
   /**
@@ -8,7 +9,7 @@ interface Props {
   /**
    * 包装器的CSS类名
    */
-  wrapperClass?: string;
+  wrapperClass?: string;  //类型包括：dock、menu、panel、button
   /**
    * 文本的CSS类名
    */
@@ -51,7 +52,7 @@ const {
   animation = "fadeUp",
   heavy = false,
   showContainer = true,
-  enableGlassEffect = true,
+  enableGlassEffect = UI_CONFIG.ENABLE_GLASS_EFFECT,
   textClass = "",
   effectClass = "",
   tintClass = "",

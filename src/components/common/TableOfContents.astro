@@ -16,7 +16,7 @@ const toc = heirarchy.filter((heading) => heading.depth <= tocDepth);
 
 {
   toc.length > 0 && (
-    <LiquidGlass heavy animation="fadeLeft" wrapperClass="dock !p-6" enableGlassEffect={false}>
+    <LiquidGlass heavy animation="fadeLeft" wrapperClass="dock !p-6" >
       <div class="intersect:animate-fadeLeft">
         <h2 class="text-2xl border-none mb-3">内容导航</h2>
         <div class="max-h-96 overflow-y-auto">

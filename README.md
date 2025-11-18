@@ -1,4 +1,3 @@
-
 # MapleBlog
 
 [![Version](https://img.shields.io/github/package-json/v/maplezzzzzz/MapleBlog)](https://github.com/maplezzzzzz/MapleBlog/blob/main/package.json)
@@ -12,7 +11,7 @@
 ## 🌟 核心特性
 
 ### 功能特性
-- 📝 容管理：博客、笔记、页面、友链、首页卡片
+- 📝 内容管理：博客、笔记、页面、友链、首页卡片
 - 💬 评论系统：集成 Twikoo，支持多平台评论管理
 - 👥 友链系统：支持本地 JSON 配置（`public/data/friends.json`）
 - 🔍 全文搜索：基于 Astro 内容构建的本地搜索
@@ -22,11 +21,13 @@
 
 ### 网站截图
 首页截图
-![网站截图](./public/assets/uploads/截图.jpg)
+![网站截图](./public/assets/uploads/ScreenShot.jpg)
+列表页截图
+![网站截图](./public/assets/uploads/ScreenShot1.jpg)
 内容页截图
-![网站截图2](./public/assets/uploads/截图4.jpg)
+![网站截图2](./public/assets/uploads/ScreenShot2.jpg)
 友情链接
-![网站截图3](./public/assets/uploads/截图3.jpg)
+![网站截图3](./public/assets/uploads/ScreenShot3.jpg)
 
 ### 技术栈
 - 前端框架：Astro 5.x + React 18 + TypeScript 5
@@ -145,6 +146,7 @@ MapleBlog/
 - [友情链接配置指南](docs/友情链接配置.md)
 - [生成网站地图](docs/生成网站地图.md)
 - [网站流量统计设置指南](docs/网站流量统计.md)
+- [组件标签目录说明](docs/components-tags.md)
 
 ## 🤝 贡献指南
 
@@ -160,3 +162,4 @@ MapleBlog/
 - [Astrogon](https://github.com/astrogon/astrogon)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [liquid-glass-effect-macos](https://github.com/lucasromerodb/liquid-glass-effect-macos)
+

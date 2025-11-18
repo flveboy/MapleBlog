@@ -4,6 +4,7 @@ import FriendLinks from "@/components/common/FriendLinks.astro";
 import Comment from "@components/base/Comment.astro";
 import GlassButton from "@components/ui/GlassButton.astro";
 import { SITE_INFO } from "@lib/config";
+import LiquidGlassLess from "./LiquidGlassLess.astro";
 
 ---
 
@@ -11,10 +12,14 @@ import { SITE_INFO } from "@lib/config";
   title="友情链接 - 交换友链申请"
   description="欢迎申请友情链接交换，共同建设更好的网络社区"
 >
-  <section class="flex container px-3 lg:px-8">
-    <div
-      class="bg-[#f8f9ff] dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 shadow-md w-full rounded-[35px] p-6 lg:p-8"
+  <section class="container px-3 lg:px-8">
+    <LiquidGlassLess
+      wrapperClass="panel"
+      heavy textClass="w-full rounded-[35px] p-6 lg:p-8" 
     >
+    <!-- <div
+      class="bg-[#f8f9ff] dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 shadow-md w-full rounded-[35px] p-6 lg:p-8"
+    > -->
       <!-- 页面标题 -->
       <div class="text-center mb-4">
         <div class="">
@@ -457,7 +462,7 @@ import { SITE_INFO } from "@lib/config";
       <!-- 留言区域 -->
       <div
         id="留言区"
-        class="bg-gray-300/30 dark:bg-gray-800/30 rounded-[25px] p-8 border border-white/20 dark:border-gray-700/30 animate-fade-in-up"
+        class="bg-gray-300/50 dark:bg-gray-800/50 rounded-[25px] p-8 border border-white/20 dark:border-gray-700/30 animate-fade-in-up"
         style="animation-delay: 1s"
       >
         <h2
@@ -471,7 +476,8 @@ import { SITE_INFO } from "@lib/config";
         <!-- Twikoo 评论系统 -->
         <Comment />
       </div>
-    </div>
+    <!-- </div> -->
+    </LiquidGlassLess>
 
     <script>
       // Tab 切换功能

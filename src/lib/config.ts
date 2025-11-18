@@ -59,6 +59,11 @@ export const SITE_INFO = {
   }
 } as const;
 
+// 全局液态玻璃效果
+export const UI_CONFIG = {
+  ENABLE_GLASS_EFFECT: true,
+} as const;
+
 // 获取当前环境的网站URL
 export const getSiteUrl = () => {
   // 在构建时使用生产URL，开发时使用开发URL

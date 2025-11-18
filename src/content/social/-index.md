@@ -2,7 +2,7 @@
 title: "Social Media Links"
 description: "A centralized list of all social media links for the website."
 platforms:
-  github: "https://github.com/maplezzzzzz"
+  github: "https://github.com/maplezzzzzz/MapleBlog"
   wechat: "/page/wechat"
   xhs: "https://www.xiaohongshu.com/user/profile/5cfa99580000000010025d89?xsec_token=YBit33q6A9osu2LXbFCL9K00-5t3PhXlSZomFTnBhzuRY=&xsec_source=app_share&xhsshare=CopyLink&appuid=5cfa99580000000010025d89&apptime=1753068592&share_id=03158ede13ef4050b7503171ea7d972a"
   email: "maplezz2025@gmail.com"
